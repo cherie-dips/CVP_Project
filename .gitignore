@@ -1,0 +1,42 @@
+# ── Large downloaded data — regenerate, don't commit ────────────────────────
+# GraspGen dataset shards + Objaverse meshes (~2.4 GB).
+# Restore: see README.md; shards from HuggingFace, meshes via download_objaverse.py
+data/
+
+# ── GraspGenX upstream clone (~2.1 GB, has its own .git) ────────────────────
+# Not tracked here: it is NVLabs' repo, and a nested git repo would be added as
+# an unusable gitlink. Everything needed to rebuild it IS tracked:
+#   git clone https://github.com/NVlabs/GraspGenX.git step3_grasp_graspgenx/GraspGenX
+#   cd step3_grasp_graspgenx/GraspGenX
+#   git apply ../setup/graspgenx-mac-device.patch     # CPU/MPS device fix
+#   python -m pip install -e .                        # checkpoints auto-download on first import
+step3_grasp_graspgenx/GraspGenX/
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ── Model weights and heavy artefacts ──────────────────────────────────────
+*.pth
+*.ckpt
+*.tar
+*.glb
+*.npy
+
+# ── Scratch ────────────────────────────────────────────────────────────────
+.DS_Store
+*.log
+/tmp/
+scratch/
+
+# ── Tracked on purpose (do not add to the ignores above) ───────────────────
+# step*/results/*.json   — measured results, small and the point of the repo
+# papers/*.pdf            — the papers the project is built on (~52 MB total)
+# step3_grasp_graspgenx/setup/*.patch

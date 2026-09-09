@@ -1,0 +1,22 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "shots": 16,
+ "n": 250,
+ "results": {
+  "always franka": {
+   "regret": 0.05198101275519836,
+   "accuracy": 0.732,
+   "success": 0.6617193966015268
+  },
+  "LLM 16-shot": {
+   "regret": 0.16858701275519836,
+   "accuracy": 0.48,
+   "success": 0.5451133966015268
+  },
+  "oracle": {
+   "regret": 0.0,
+   "accuracy": 1.0,
+   "success": 0.7137004093567251
+  }
+ }
+}

@@ -1,0 +1,34 @@
+clip,source,width,height,fps,seconds,close_s,settle_s,motion_peak,motion_end,table_change,strip,object,gripper,outcome,label_confidence,labelled_by
+banana,gripper,630,700,30.0,5.03,3.1,4.8,18.84,4.61,39.6,data/grasp_clips/banana_strip.jpg,banana,2-finger,held,high,claude-visual-provisional
+banana_short,gripper,630,700,30.0,5.0,2.6,3.4,13.43,10.43,33.76,data/grasp_clips/banana_short_strip.jpg,banana,2-finger,held,high,claude-visual-provisional
+cokecan,gripper,630,700,30.0,5.0,2.7,3.7,5.21,1.95,15.69,data/grasp_clips/cokecan_strip.jpg,coke can,2-finger,held,high,claude-visual-provisional
+egg,gripper,630,700,30.0,5.0,2.1,3.9,12.31,5.35,29.81,data/grasp_clips/egg_strip.jpg,ping-pong ball,4-finger,held,high,claude-visual-provisional
+marker,gripper,630,700,30.0,5.03,2.4,4.8,15.92,6.63,34.99,data/grasp_clips/marker_strip.jpg,marker,2-finger,held,high,claude-visual-provisional
+mug,gripper,630,700,30.0,5.0,3.1,3.8,10.78,4.88,53.85,data/grasp_clips/mug_strip.jpg,mug,2-finger,held,high,claude-visual-provisional
+pinkball,gripper,630,700,30.0,5.0,2.6,4.7,21.9,5.26,50.29,data/grasp_clips/pinkball_strip.jpg,pink ball,4-finger,held,high,claude-visual-provisional
+rubik,gripper,630,700,30.0,5.03,2.7,4.2,17.82,5.51,41.4,data/grasp_clips/rubik_strip.jpg,rubik cube,4-finger,held,high,claude-visual-provisional
+screw,gripper,630,700,30.0,5.03,2.3,2.9,11.72,5.8,4.41,data/grasp_clips/screw_strip.jpg,screw on block,2-finger,held,med,claude-visual-provisional
+wheel,gripper,630,700,30.0,5.03,2.4,4.8,19.2,15.1,65.04,data/grasp_clips/wheel_strip.jpg,toy wheel,4-finger,held,high,claude-visual-provisional
+IMG_1780,SP Dutt Video,1920,1080,29.96,28.5,22.8,28.3,13.74,4.09,19.31,data/grasp_clips/IMG_1780_strip.jpg,object underwater,4-finger,,low,claude-visual-provisional
+IMG_1791,SP Dutt Video,1920,1080,29.96,15.65,10.8,15.2,22.85,3.21,35.46,data/grasp_clips/IMG_1791_strip.jpg,green ball,4-finger,held,med,claude-visual-provisional
+IMG_1801,SP Dutt Video,1920,1080,29.97,24.66,20.2,24.5,23.58,11.79,32.15,data/grasp_clips/IMG_1801_strip.jpg,toy wheel,4-finger,,low,claude-visual-provisional
+IMG_1830,SP Dutt Video,1920,1080,29.96,21.02,20.3,20.8,15.79,12.11,27.44,data/grasp_clips/IMG_1830_strip.jpg,rubik cube,4-finger,,low,claude-visual-provisional
+IMG_1832,SP Dutt Video,1920,1080,29.97,9.18,8.9,9.0,10.15,8.05,20.71,data/grasp_clips/IMG_1832_strip.jpg,ping-pong ball,4-finger,,low,claude-visual-provisional
+IMG_1838,SP Dutt Video,1920,1080,29.96,39.91,32.0,39.7,18.51,11.89,43.59,data/grasp_clips/IMG_1838_strip.jpg,,4-finger,,low,claude-visual-provisional
+IMG_1843,SP Dutt Video,1920,1080,29.97,13.41,12.6,13.2,8.67,3.09,2.9,data/grasp_clips/IMG_1843_strip.jpg,tennis ball,,,low,claude-visual-provisional
+IMG_1859,SP Dutt Video,1920,1080,29.97,7.81,7.1,7.6,18.78,13.87,40.07,data/grasp_clips/IMG_1859_strip.jpg,object underwater,4-finger,,low,claude-visual-provisional
+IMG_1860,SP Dutt Video,1920,1080,30.0,308.1,7.8,301.8,10.38,2.2,17.8,data/grasp_clips/IMG_1860_strip.jpg,object underwater,4-finger,,low,claude-visual-provisional
+IMG_1861,SP Dutt Video,1920,1080,29.97,16.39,3.7,6.8,7.04,5.37,31.06,data/grasp_clips/IMG_1861_strip.jpg,object underwater,4-finger,,low,claude-visual-provisional
+IMG_1862,SP Dutt Video,1920,1080,29.97,7.84,6.8,7.6,11.54,5.89,24.54,data/grasp_clips/IMG_1862_strip.jpg,object underwater,4-finger,,low,claude-visual-provisional
+IMG_1863,SP Dutt Video,1920,1080,29.97,53.3,53.0,53.1,8.99,7.52,31.24,data/grasp_clips/IMG_1863_strip.jpg,object underwater,4-finger,,low,claude-visual-provisional
+IMG_1864,SP Dutt Video,1920,1080,29.97,17.89,2.7,6.8,5.89,1.87,26.21,data/grasp_clips/IMG_1864_strip.jpg,object underwater,4-finger,,low,claude-visual-provisional
+IMG_1865,SP Dutt Video,1920,1080,29.96,35.67,33.2,35.5,13.43,4.73,29.25,data/grasp_clips/IMG_1865_strip.jpg,object underwater,4-finger,,low,claude-visual-provisional
+IMG_1869,SP Dutt Video,1920,1080,29.97,29.1,22.0,22.7,5.61,2.19,32.35,data/grasp_clips/IMG_1869_strip.jpg,small object,4-finger,,low,claude-visual-provisional
+IMG_1870,SP Dutt Video,1920,1080,29.96,26.9,20.7,26.7,13.6,6.12,24.77,data/grasp_clips/IMG_1870_strip.jpg,mug,4-finger,,med,claude-visual-provisional
+IMG_1871,SP Dutt Video,1920,1080,29.96,16.92,10.4,16.7,14.23,3.18,33.82,data/grasp_clips/IMG_1871_strip.jpg,marker,4-finger,held,med,claude-visual-provisional
+IMG_1872,SP Dutt Video,1920,1080,29.97,11.48,9.1,11.3,11.38,7.59,32.9,data/grasp_clips/IMG_1872_strip.jpg,banana,4-finger,,med,claude-visual-provisional
+IMG_1873,SP Dutt Video,1920,1080,29.96,18.39,11.8,12.8,21.08,4.17,40.53,data/grasp_clips/IMG_1873_strip.jpg,blue block,4-finger,,med,claude-visual-provisional
+IMG_1874,SP Dutt Video,1920,1080,29.97,14.35,9.1,14.2,11.67,6.97,15.55,data/grasp_clips/IMG_1874_strip.jpg,blue block,4-finger,,med,claude-visual-provisional
+IMG_1875,SP Dutt Video,1920,1080,29.96,19.39,11.9,12.9,13.58,7.68,24.97,data/grasp_clips/IMG_1875_strip.jpg,blue block,4-finger,,med,claude-visual-provisional
+IMG_1878,SP Dutt Video,1920,1080,29.97,24.36,13.8,24.2,12.78,10.81,29.92,data/grasp_clips/IMG_1878_strip.jpg,dark cylinder,4-finger,,med,claude-visual-provisional
+IMG_1881,SP Dutt Video,1920,1080,29.96,32.77,1.1,3.6,18.85,3.83,72.82,data/grasp_clips/IMG_1881_strip.jpg,,,,low,claude-visual-provisional
