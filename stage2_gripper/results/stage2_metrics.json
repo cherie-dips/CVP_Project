@@ -1,0 +1,24 @@
+{
+ "proxy_results": {
+  "always narrow": {
+   "regret": 0.050499999999999996,
+   "accuracy": 0.7903225806451613
+  },
+  "always wide": {
+   "regret": 0.28512903225806446,
+   "accuracy": 0.20967741935483872
+  },
+  "shape only": {
+   "regret": 0.051596774193548384,
+   "accuracy": 0.7903225806451613
+  },
+  "shape + mass": {
+   "regret": 0.0500483870967742,
+   "accuracy": 0.7741935483870968
+  }
+ },
+ "n_test": 62,
+ "n_with_mesh": 226,
+ "our_clips": 33,
+ "paired_objects": 3
+}

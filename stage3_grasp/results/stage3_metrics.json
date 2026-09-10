@@ -1,0 +1,10 @@
+{
+ "scorer": {
+  "geometry only | franka": 0.6066931539912035,
+  "geometry only | robotiq": 0.5869250729619515,
+  "geometry + mass | franka": 0.6133177999706071,
+  "geometry + mass | robotiq": 0.5813790482252564
+ },
+ "n_grasps": 89512,
+ "n_objects": 226
+}

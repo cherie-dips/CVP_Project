@@ -1,0 +1,59 @@
+{
+ "measured_mm": {
+  "finger_len": 85.0,
+  "finger_wide": 30.0,
+  "finger_thick": 10.0,
+  "body_width": 50.6,
+  "body_height": 60.1
+ },
+ "open_deg": 35,
+ "closed_deg": 0,
+ "grippers": {
+  "2-finger": {
+   "extents_open": [
+    0.1481,
+    0.03,
+    0.0383
+   ],
+   "offset_open": [
+    0,
+    0,
+    0.0949
+   ],
+   "extents_mid": [
+    0.1017,
+    0.03,
+    0.0446
+   ],
+   "offset_mid": [
+    0,
+    0,
+    0.1006
+   ],
+   "n_contacts": 2
+  },
+  "4-finger": {
+   "extents_open": [
+    0.1481,
+    0.1481,
+    0.0383
+   ],
+   "offset_open": [
+    0,
+    0,
+    0.0949
+   ],
+   "extents_mid": [
+    0.1017,
+    0.1017,
+    0.0446
+   ],
+   "offset_mid": [
+    0,
+    0,
+    0.1006
+   ],
+   "n_contacts": 4
+  }
+ }
+}
