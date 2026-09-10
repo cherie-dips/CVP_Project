@@ -34,6 +34,30 @@ Two reasons, and only one is fixable:
    every object**, so the labels contain no mass information at all. This is not evidence against the
    pipeline — it is evidence that the proxy cannot test it.
 
+## Can a VLM do it instead?
+
+**Qwen3-VL-2B**, fine-tuned with LoRA **on the Mac** — 8.7 M trainable parameters, peak 10.5 GB of
+16 GB, about 6 minutes. No GPU, no cloud.
+
+Task: look at a photo of the gripper mid-grasp, say which configuration it is. 31 labelled images,
+23 train / 8 test.
+
+| | all 31 | test 8 |
+|---|---|---|
+| zero-shot, asked "which configuration?" | 19% | 25% |
+| zero-shot, asked "count the fingers" | **61%** | 25% |
+| zero-shot, asked "2 or 4 fingers?" | 39% | 62% |
+| **fine-tuned (LoRA)** | **87%** | **75%** |
+| *always guessing 4-finger* | *81%* | *75%* |
+
+**Fine-tuning reaches the majority baseline and no further.** With 23 examples split 19/4 it learns the
+class prior, not the visual distinction — train accuracy 91% against test 75% is plain overfitting.
+
+Two things are still worth noting. **Zero-shot varies from 19% to 61% on the same images depending
+only on how the question is phrased** — the model is more sensitive to wording than to the picture.
+And the fine-tuned model does get every 2-finger case right (`screw`, `banana_short`, `mug`, `banana`);
+its two test errors are `egg` and `rubik`.
+
 ## Our own hardware
 
 33 grasp clips, configurations read off the video frames (provisional — 9 high confidence, 9 medium,

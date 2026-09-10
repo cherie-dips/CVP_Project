@@ -49,6 +49,32 @@ feasibility check for Stage 2, for free.**
 AUC is the chance the score ranks a successful grasp above a failed one; 0.5 is a coin flip. Mass moves
 it by ±0.006 — nothing, and for the same reason as Stage 2: the training labels have no mass variation.
 
+## A VLM can do this too
+
+Same model and setup as Stage 2: **Qwen3-VL-2B**, LoRA on the Mac. Input is the object photo plus the
+gripper Stage 2 chose; output is the contact points in image coordinates.
+
+| | correct number of points | mean point error |
+|---|---|---|
+| zero-shot | 75% | 192 / 1000 |
+| **fine-tuned** | **100%** | **112 / 1000** |
+
+![Grasp points](results/vlm_grasp_points.png)
+
+*Green = target, red = predicted, on the 8 test images.*
+
+**Format compliance goes 75% → 100% and point error drops 42%.** Unlike Stage 2, fine-tuning genuinely
+helps here — the task has a consistent geometric structure to learn rather than a lopsided class split
+to memorise. Best case `screw` at 19/1000; worst `IMG_1862` at 187.
+
+**One caveat.** We have no grasp-point annotations, so the targets were *derived*: take the model's own
+object box, then apply the geometric rule (2-finger pinches across the short axis, 4-finger closes on
+the centre). So this fine-tune **distils that rule into the model** — it collapses detect-then-compute
+into one forward pass, which is useful, but it is not learning grasping from real trials.
+
+Annotating where the fingers actually contacted in the 33 close-frames would turn this into real
+supervision. It is about an hour of clicking.
+
 ## Run it
 
 ```bash
