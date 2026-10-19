@@ -1,0 +1,4 @@
+model,n,accuracy,recall_2finger,recall_4finger,answered_2finger,answered_4finger
+Qwen3-VL-2B (zero-shot),68,0.941,0.985,0.0,67,1
+Qwen3-VL-2B (fine-tuned),68,0.956,1.0,0.0,68,0
+"SmolVLM2-500M (SmolVLA backbone, zero-shot)",68,0.044,0.0,1.0,0,68

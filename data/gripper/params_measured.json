@@ -1,0 +1,74 @@
+{
+ "source": "measured from gripper/Body.stl, Correct.stl (clamp), Fixed_Correct_Finger.stl",
+ "derived_by": "setup/derive_gripper_params.py (assembles the STLs, then measures the free box)",
+ "measured_hardware_mm": {
+  "finger": {
+   "width_radial": 30.0,
+   "thickness_tangential": 10.0,
+   "length": 85.0
+  },
+  "body_top_plate": 69.5,
+  "body_height": 49.2,
+  "pivot_radius": 30.5,
+  "pivot_height_below_top_plate": 6.19,
+  "clamp_plate_thickness": 13.0,
+  "clevis_gap": 14.0,
+  "clamp_pivot_to_finger_axis": 11.58,
+  "fingertip_separation_fully_open": 139.1
+ },
+ "assumptions": {
+  "mounting": "finger axis radially OUTBOARD of the pivot (the inboard mirror gives only a 72.8 mm opening)",
+  "sweep_deg": 70.0,
+  "theta_closed_deg": -23.34,
+  "theta_open_deg": 46.66,
+  "origin": "gripper base = body mounting face, z = -49.53 mm below the top plate"
+ },
+ "grippers": {
+  "2-finger": {
+   "extents_open": [
+    0.0837,
+    0.01,
+    0.0692
+   ],
+   "offset_open": [
+    0.0,
+    0.0,
+    0.0716
+   ],
+   "extents_mid": [
+    0.0619,
+    0.01,
+    0.0863
+   ],
+   "offset_mid": [
+    0.0,
+    0.0,
+    0.0995
+   ],
+   "n_contacts": 2
+  },
+  "4-finger": {
+   "extents_open": [
+    0.0837,
+    0.0837,
+    0.0692
+   ],
+   "offset_open": [
+    0.0,
+    0.0,
+    0.0716
+   ],
+   "extents_mid": [
+    0.0619,
+    0.0619,
+    0.0863
+   ],
+   "offset_mid": [
+    0.0,
+    0.0,
+    0.0995
+   ],
+   "n_contacts": 4
+  }
+ }
+}

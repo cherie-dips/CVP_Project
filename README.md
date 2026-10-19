@@ -1,112 +1,59 @@
-# Picking a Gripper from What an Object Is Made Of
+# Grasping with a fin-ray gripper
 
-Given a photograph of an object, decide **which gripper to use, where to grip it, and how hard**.
-
-Two fin-ray grippers: a **2-finger** and a **4-finger**. They are the same gripper — the 2-finger has
-two fingers removed — so material, finger length and stiffness are identical and only the number of
-contacts changes.
-
-## Pipeline
+Two stages.
 
 ```
-  photo + depth
-       │
-       ▼
-  STAGE 1   object → size → mass                      MnRE 0.619
-       │
-       ▼
-  STAGE 2   object + mass → which gripper             regret 0.0500
-       │
-       ▼
-  STAGE 3   object + mass + gripper → grasp points    AUC 0.607
+stage 1   object point cloud / image  +  gripper configurations (2- and 4-finger)
+          ──► LLM ──►  which configuration to use
+
+stage 2   that configuration  +  object point cloud
+          ──► GraspGenX ──►  6-DOF grasps
 ```
 
-## Results
+The gripper is ours: four fin-ray fingers in a cross, driven together by a rack.
+**Remove two opposing fingers and it is the 2-finger gripper** — same body, same
+fingers, same travel. That is the only choice stage 1 makes.
 
-### Stage 1 — mass from a photograph
+| | |
+|---|---|
+| [`stage1_gripper/`](stage1_gripper) | the LLM decision, its labels, and fine-tuning |
+| [`stage2_grasp/`](stage2_grasp) | GraspGenX, both configurations |
+| `data/gripper/` | the gripper itself: STLs, the 12 swept-volume numbers, and `description.md` — the file stage 1 shows the LLM |
+| `data/objaverse/` | meshes, real-world scale factors, names, split lists |
+| `data/ycb/` | YCB meshes for stage 2 (downloaded on first run) |
+| `papers/` | the five papers this is built on |
 
-**MnRE 0.619** with size, 0.509 without. A 40% error in the measured size still beats using no size at
-all, so a cheap depth sensor suffices.
+## Results so far
 
-![Stage 1](stage1_mass/results/stage1.png)
+| | |
+|---|---|
+| stage 1, zero-shot | 94.1% accuracy — and **0% recall** on the 4-finger class |
+| stage 1, fine-tuned on 26 balanced examples | 95.6%, still **0% recall** |
+| stage 2, 2-finger | 84% of grasps reach the object, median standoff −10 mm |
+| stage 2, 4-finger | **0% reach**, median standoff +28 mm |
 
-*Left: image + size beats every alternative, including the product name a robot cannot see. Right:
-accuracy stops improving at about 10,000 training objects.*
+Two findings behind those numbers:
 
-### Stage 2 — which gripper
+**GraspGenX cannot plan for the 4-finger gripper.** Its gripper input is a swept-volume
+box; nothing in those twelve numbers says "four fingers". The second pair makes the box
+square, which reads as a bulkier gripper, so the model backs the pose off and returns
+confident grasps that close on empty air.
 
-**Regret 0.0500**, which only matches always picking one gripper (0.0505). Adding mass changes nothing.
+**The LLM is not deciding.** It answers the same configuration for every object, stably
+under reordering the options — and because round objects are about one in five, that
+scores 94% while being useless. Two different models fail this way in opposite
+directions, so the bottleneck is the task as posed, not the model.
 
-![Stage 2](stage2_gripper/results/stage2.png)
+Both are documented in the stage READMEs.
 
-*Nothing beats the trivial baseline, because the oracle can only recover 4.8 points in the first place.*
+## Running it
 
-### Stage 3 — where to grip
-
-Analytic proposals land **2–9 mm** from the object surface. The scorer reaches **AUC 0.607**, and the
-4-finger is correctly found infeasible on objects too big for its 148 mm envelope.
-
-![Stage 3](stage3_grasp/results/stage3.png)
-
-*Mass shifts the scorer by ±0.006 — nothing, for the same reason as Stage 2.*
-
-### A vision-language model, fine-tuned on the Mac
-
-**Qwen3-VL-2B + LoRA**, run entirely on the M4 — 8.7 M trainable parameters, peak **10.5 GB of 16 GB**,
-about 6 minutes per stage. No GPU, no cloud.
-
-| | zero-shot | fine-tuned | baseline |
-|---|---|---|---|
-| **stage 2** — which gripper | 61% | 75% | 75% (majority) |
-| **stage 3** — grasp points | 75% format, 192 err | **100% format, 112 err** | — |
-
-![Grasp points predicted by the fine-tuned VLM](stage3_grasp/results/vlm_grasp_points.png)
-
-*Eight held-out images. Green circles are the target contact points, red crosses the model's
-predictions. Fine-tuning fixed the output format completely and cut point error by 42%.*
-
-Stage 2 only reaches the majority baseline: 23 training examples split 19/4 teach the class prior, not
-the distinction. **Stage 3 genuinely improves**, because the task has geometric structure to learn
-rather than a lopsided class split to memorise.
-
-## The honest limitation
-
-**Mass does not help Stages 2 or 3 — but that cannot be tested on public data.** Every public grasping
-dataset uses *one fixed density and friction for all objects*. GraspGen and MultiGripperGrasp both do.
-So the labels contain no mass information, and the core claim of this pipeline is untestable on them
-by construction.
-
-**Only our own trials can settle it.** We have 33 grasp clips and **3 objects tried in both gripper
-configurations**. More paired trials is the single most valuable thing to collect.
-
-## Layout
-
-```
-stage1_mass/       stage1_mass.ipynb       photo + depth → mass
-stage2_gripper/    stage2_gripper.ipynb    → which gripper
-stage3_grasp/      stage3_grasp.ipynb      → grasp points
-data/              abo/ graspgen/ gripper/ grasp_clips/
-gripper/           our gripper's STL files
-papers/            background reading
-```
-
-## Environment
+GraspGenX and MLX cannot share an environment (GraspGenX pins numpy 1.26.4), so the
+notebooks shell out to the `mlxvlm` env for anything touching the VLM. GraspGenX itself
+is an upstream clone, gitignored; the patch makes it run on CPU — MPS is numerically
+wrong for this model.
 
 ```bash
-conda activate graspgenx
-jupyter notebook
+git clone https://github.com/NVlabs/GraspGenX.git
+cd GraspGenX && git apply ../data/gripper/graspgenx-mac-device.patch && pip install -e .
 ```
-
-Do not install OpenCV — it pulls numpy 2.x and breaks the pinned 1.26.4. The video tools use ffmpeg
-and PIL instead.
-
-## Data
-
-| | size | used by |
-|---|---|---|
-| `data/abo` | 3.6 GB | Stage 1 — 32,687 products with photos and true weights |
-| `data/graspgen` | 14 GB | Stages 2 and 3 — 8,454 objects with labelled grasps |
-| `data/gripper`, `data/grasp_clips` | 7 MB | our 33 grasp videos and their key frames |
-
-Both large sets are raw downloads; everything extracted from them is saved in `stage*/results/`, so
-they can be deleted and re-fetched if space is needed.

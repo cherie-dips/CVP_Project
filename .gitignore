@@ -1,42 +1,45 @@
-# ── Large downloaded data — regenerate, don't commit ────────────────────────
-# GraspGen dataset shards + Objaverse meshes (~2.4 GB).
-# Restore: see README.md; shards from HuggingFace, meshes via download_objaverse.py
-data/
+# ── Data — kept local, don't commit ─────────────────────────────────────────
+# data/objects           : phone videos of the test objects
+# data/objaverse         : GraspGen's Objaverse meshes, scales, annotations, splits
+# data/ycb               : YCB meshes, downloaded by stage2_grasp.ipynb
+# data/gripper/*.stl     : gripper CAD meshes
+# selected_objects       : Isaac Sim USD assets for graspgenx_selected_objects.py
+# The gripper's small config files stay tracked: the notebooks, the scripts and
+# the GraspGenX setup below read them directly.
+data/*
+!data/gripper/
+data/gripper/*
+!data/gripper/*.json
+!data/gripper/*.md
+!data/gripper/*.patch
+selected_objects/
+robobrain_dataset_summary.csv
+*.npz
+*.npy
+*.pkl
+*.h5
 
-# ── GraspGenX upstream clone (~2.1 GB, has its own .git) ────────────────────
-# Not tracked here: it is NVLabs' repo, and a nested git repo would be added as
-# an unusable gitlink. Everything needed to rebuild it IS tracked:
-#   git clone https://github.com/NVlabs/GraspGenX.git step3_grasp_graspgenx/GraspGenX
-#   cd step3_grasp_graspgenx/GraspGenX
-#   git apply ../setup/graspgenx-mac-device.patch     # CPU/MPS device fix
-#   python -m pip install -e .                        # checkpoints auto-download on first import
-step3_grasp_graspgenx/GraspGenX/
+# ── Videos ──────────────────────────────────────────────────────────────────
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.avi
+*.mkv
+*.webm
 
-# ── Python ─────────────────────────────────────────────────────────────────
+# ── GraspGenX upstream clone (~3.6 GB with checkpoints, has its own .git) ───
+#   git clone https://github.com/NVlabs/GraspGenX.git
+#   cd GraspGenX && git apply ../data/gripper/graspgenx-mac-device.patch
+#   pip install -e .      # checkpoints auto-download on first import
+GraspGenX/
+
+# ── LoRA adapters (~100 MB) — retrain with finetune_selector.ipynb ──────────
+*.safetensors
+
+# ── Python / scratch ───────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
-*.egg-info/
-.eggs/
-build/
-dist/
-.venv/
-venv/
 .ipynb_checkpoints/
-
-# ── Model weights and heavy artefacts ──────────────────────────────────────
-*.pth
-*.ckpt
-*.tar
-*.glb
-*.npy
-
-# ── Scratch ────────────────────────────────────────────────────────────────
 .DS_Store
 *.log
-/tmp/
-scratch/
-
-# ── Tracked on purpose (do not add to the ignores above) ───────────────────
-# step*/results/*.json   — measured results, small and the point of the repo
-# papers/*.pdf            — the papers the project is built on (~52 MB total)
-# step3_grasp_graspgenx/setup/*.patch

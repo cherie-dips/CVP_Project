@@ -1,0 +1,1163 @@
+[
+ {
+  "uuid": "001559b408504642831e6c604eaf583f",
+  "short": 59.7,
+  "mid": 90.7,
+  "long": 157.2,
+  "elong": 2.63,
+  "squat": 1.52,
+  "antipodal": 0.029
+ },
+ {
+  "uuid": "02d482391a374f34b3dbc6b2bf19762e",
+  "short": 39.8,
+  "mid": 138.2,
+  "long": 211.4,
+  "elong": 5.31,
+  "squat": 3.47,
+  "antipodal": 0.594
+ },
+ {
+  "uuid": "02dc97bdd42b4ebaac170ae0a75bb030",
+  "short": 56.7,
+  "mid": 144.5,
+  "long": 144.7,
+  "elong": 2.55,
+  "squat": 2.55,
+  "antipodal": 0.405
+ },
+ {
+  "uuid": "08dc1e1369b44f3ca45cc116c4a53bb7",
+  "short": 125.1,
+  "mid": 144.8,
+  "long": 192.3,
+  "elong": 1.54,
+  "squat": 1.16,
+  "antipodal": 0.144
+ },
+ {
+  "uuid": "08f942bd6c13467091520f48223aea34",
+  "short": 25.1,
+  "mid": 36.9,
+  "long": 138.5,
+  "elong": 5.52,
+  "squat": 1.47,
+  "antipodal": 0.115
+ },
+ {
+  "uuid": "0acfb2346cc44decadf6a93ea6ce940a",
+  "short": 69.9,
+  "mid": 304.3,
+  "long": 316.0,
+  "elong": 4.52,
+  "squat": 4.35,
+  "antipodal": 0.154
+ },
+ {
+  "uuid": "0f3749cd30f143f9a3f2ae50fd8237e9",
+  "short": 40.6,
+  "mid": 81.8,
+  "long": 158.6,
+  "elong": 3.91,
+  "squat": 2.02,
+  "antipodal": 0.098
+ },
+ {
+  "uuid": "132b635ab00748ab905bbc279497d6d9",
+  "short": 76.2,
+  "mid": 91.5,
+  "long": 152.5,
+  "elong": 2.0,
+  "squat": 1.2,
+  "antipodal": 0.198
+ },
+ {
+  "uuid": "142f2b38673d4768912c9e7ca1dfc0f3",
+  "short": 114.3,
+  "mid": 166.9,
+  "long": 176.6,
+  "elong": 1.55,
+  "squat": 1.46,
+  "antipodal": 0.031
+ },
+ {
+  "uuid": "1524f04f2d8147d7a63d36bfee1c5458",
+  "short": 56.7,
+  "mid": 133.6,
+  "long": 133.6,
+  "elong": 2.35,
+  "squat": 2.35,
+  "antipodal": 0.43
+ },
+ {
+  "uuid": "15827f3c56014bec9ed1f1aae25f8f09",
+  "short": 94.0,
+  "mid": 96.3,
+  "long": 191.8,
+  "elong": 2.04,
+  "squat": 1.02,
+  "antipodal": 0.036
+ },
+ {
+  "uuid": "17f40d0ee47f442d9b9091d7a609e812",
+  "short": 40.6,
+  "mid": 47.0,
+  "long": 116.8,
+  "elong": 2.88,
+  "squat": 1.16,
+  "antipodal": 0.044
+ },
+ {
+  "uuid": "206c60c7a47143b9959e3cff1e6ad404",
+  "short": 107.0,
+  "mid": 110.4,
+  "long": 196.2,
+  "elong": 1.83,
+  "squat": 1.03,
+  "antipodal": 0.057
+ },
+ {
+  "uuid": "2210c49edd554bb1b95be93af73a1da5",
+  "short": 67.2,
+  "mid": 247.2,
+  "long": 340.2,
+  "elong": 5.06,
+  "squat": 3.68,
+  "antipodal": 0.233
+ },
+ {
+  "uuid": "2527cdd4e465404a9e049171f506fc14",
+  "short": 48.7,
+  "mid": 76.5,
+  "long": 171.5,
+  "elong": 3.52,
+  "squat": 1.57,
+  "antipodal": 0.443
+ },
+ {
+  "uuid": "2940346cc97f4ff9ad1d5284827398ca",
+  "short": 76.8,
+  "mid": 115.4,
+  "long": 193.9,
+  "elong": 2.52,
+  "squat": 1.5,
+  "antipodal": 0.573
+ },
+ {
+  "uuid": "2b23af67627c454681d8080e48904c1f",
+  "short": 69.9,
+  "mid": 97.2,
+  "long": 98.4,
+  "elong": 1.41,
+  "squat": 1.39,
+  "antipodal": 0.014
+ },
+ {
+  "uuid": "2ce58fb8b361418897e2cb2f4085029a",
+  "short": 108.0,
+  "mid": 142.9,
+  "long": 204.1,
+  "elong": 1.89,
+  "squat": 1.32,
+  "antipodal": 0.156
+ },
+ {
+  "uuid": "2db87772b2b446a3af2ed0cc427b93aa",
+  "short": 48.7,
+  "mid": 142.1,
+  "long": 147.1,
+  "elong": 3.02,
+  "squat": 2.92,
+  "antipodal": 0.003
+ },
+ {
+  "uuid": "2ec1ab458bcd4ea59236bb58bc3707dd",
+  "short": 43.7,
+  "mid": 171.2,
+  "long": 255.3,
+  "elong": 5.84,
+  "squat": 3.92,
+  "antipodal": 0.038
+ },
+ {
+  "uuid": "304f656a07d741caabdf36d58b9eb471",
+  "short": 119.5,
+  "mid": 139.2,
+  "long": 219.5,
+  "elong": 1.84,
+  "squat": 1.17,
+  "antipodal": 0.77
+ },
+ {
+  "uuid": "30792308605146eb8603e17f913b1ba6",
+  "short": 93.2,
+  "mid": 109.4,
+  "long": 135.1,
+  "elong": 1.45,
+  "squat": 1.17,
+  "antipodal": 0.0
+ },
+ {
+  "uuid": "319727f5f023442d8a8374b03a8e2475",
+  "short": 41.0,
+  "mid": 146.4,
+  "long": 170.6,
+  "elong": 4.16,
+  "squat": 3.57,
+  "antipodal": 0.088
+ },
+ {
+  "uuid": "31ecdff2bc3747d19a51d49507bba740",
+  "short": 46.9,
+  "mid": 224.1,
+  "long": 301.3,
+  "elong": 6.42,
+  "squat": 4.78,
+  "antipodal": 0.042
+ },
+ {
+  "uuid": "3360b4a9f11e47f39c17b680a718619d",
+  "short": 121.6,
+  "mid": 275.0,
+  "long": 305.5,
+  "elong": 2.51,
+  "squat": 2.26,
+  "antipodal": 0.0
+ },
+ {
+  "uuid": "336574c433fa40999108ce40a19e7177",
+  "short": 81.1,
+  "mid": 93.7,
+  "long": 340.4,
+  "elong": 4.2,
+  "squat": 1.15,
+  "antipodal": 0.015
+ },
+ {
+  "uuid": "3461b2c6f57f4210949c4bc3cc750210",
+  "short": 81.9,
+  "mid": 177.7,
+  "long": 300.6,
+  "elong": 3.67,
+  "squat": 2.17,
+  "antipodal": 0.022
+ },
+ {
+  "uuid": "36342df2dae44dd4894ad4658720c2a4",
+  "short": 105.0,
+  "mid": 211.9,
+  "long": 214.9,
+  "elong": 2.05,
+  "squat": 2.02,
+  "antipodal": 0.232
+ },
+ {
+  "uuid": "36d38e329b424d929c5efad81cf387f9",
+  "short": 97.9,
+  "mid": 222.0,
+  "long": 268.5,
+  "elong": 2.74,
+  "squat": 2.27,
+  "antipodal": 0.188
+ },
+ {
+  "uuid": "38232c0c87d641ac8632d846de3821a7",
+  "short": 53.1,
+  "mid": 187.6,
+  "long": 187.6,
+  "elong": 3.53,
+  "squat": 3.53,
+  "antipodal": 0.0
+ },
+ {
+  "uuid": "38ff74df366146aaafa235f1aff30ce0",
+  "short": 30.2,
+  "mid": 63.3,
+  "long": 98.0,
+  "elong": 3.25,
+  "squat": 2.1,
+  "antipodal": 0.233
+ },
+ {
+  "uuid": "3dd8ef697a48422f860110674bce010b",
+  "short": 115.6,
+  "mid": 316.2,
+  "long": 329.8,
+  "elong": 2.85,
+  "squat": 2.74,
+  "antipodal": 0.093
+ },
+ {
+  "uuid": "42724d46046e4bba8eec9880890dc45a",
+  "short": 67.8,
+  "mid": 90.9,
+  "long": 91.4,
+  "elong": 1.35,
+  "squat": 1.34,
+  "antipodal": 0.273
+ },
+ {
+  "uuid": "429536ff8dd84e538168c17ce6e82e28",
+  "short": 80.8,
+  "mid": 81.7,
+  "long": 131.5,
+  "elong": 1.63,
+  "squat": 1.01,
+  "antipodal": 0.0
+ },
+ {
+  "uuid": "448630965e754a4a9d2fa5c04b1db6fc",
+  "short": 117.7,
+  "mid": 133.6,
+  "long": 227.8,
+  "elong": 1.94,
+  "squat": 1.14,
+  "antipodal": 0.013
+ },
+ {
+  "uuid": "4688b6a39b6f4c99a88080a004cbdf77",
+  "short": 65.7,
+  "mid": 93.9,
+  "long": 276.0,
+  "elong": 4.2,
+  "squat": 1.43,
+  "antipodal": 0.665
+ },
+ {
+  "uuid": "4b9c75dd6b4445f485748d95a85eaf5f",
+  "short": 34.8,
+  "mid": 35.6,
+  "long": 86.0,
+  "elong": 2.47,
+  "squat": 1.02,
+  "antipodal": 0.087
+ },
+ {
+  "uuid": "4d293085dbea4d0686b304b88bffd6d3",
+  "short": 68.9,
+  "mid": 216.4,
+  "long": 217.3,
+  "elong": 3.15,
+  "squat": 3.14,
+  "antipodal": 0.398
+ },
+ {
+  "uuid": "4da577d89c0b4a61967236cee9d745b5",
+  "short": 26.8,
+  "mid": 34.2,
+  "long": 80.1,
+  "elong": 2.99,
+  "squat": 1.28,
+  "antipodal": 0.618
+ },
+ {
+  "uuid": "4ec62ed9b3de428db25b6c25417b7897",
+  "short": 38.3,
+  "mid": 145.7,
+  "long": 193.5,
+  "elong": 5.05,
+  "squat": 3.8,
+  "antipodal": 0.307
+ },
+ {
+  "uuid": "4efdeb23f30e49aab10fac0c3064443d",
+  "short": 21.7,
+  "mid": 21.7,
+  "long": 194.4,
+  "elong": 8.95,
+  "squat": 1.0,
+  "antipodal": 0.033
+ },
+ {
+  "uuid": "51226d166ef84bfcbe5c63bfd389a152",
+  "short": 36.4,
+  "mid": 36.7,
+  "long": 66.7,
+  "elong": 1.83,
+  "squat": 1.01,
+  "antipodal": 0.02
+ },
+ {
+  "uuid": "537fcb235511433a8a53939473bb5d60",
+  "short": 27.7,
+  "mid": 27.7,
+  "long": 101.7,
+  "elong": 3.67,
+  "squat": 1.0,
+  "antipodal": 0.395
+ },
+ {
+  "uuid": "58cd445c1e0044dd8af2009d51b7be18",
+  "short": 20.2,
+  "mid": 101.0,
+  "long": 183.0,
+  "elong": 9.04,
+  "squat": 4.99,
+  "antipodal": 0.092
+ },
+ {
+  "uuid": "590e3e143c5f4e82bf2f40fb4ad3f3b9",
+  "short": 109.7,
+  "mid": 221.3,
+  "long": 313.0,
+  "elong": 2.85,
+  "squat": 2.02,
+  "antipodal": 0.281
+ },
+ {
+  "uuid": "591f7d9f6337460ab1d93ef6c95e70e5",
+  "short": 65.7,
+  "mid": 73.7,
+  "long": 87.5,
+  "elong": 1.33,
+  "squat": 1.12,
+  "antipodal": 0.145
+ },
+ {
+  "uuid": "59c97f3ea12946e390f498c64bbfec50",
+  "short": 43.4,
+  "mid": 183.9,
+  "long": 347.7,
+  "elong": 8.01,
+  "squat": 4.24,
+  "antipodal": 0.035
+ },
+ {
+  "uuid": "59f464fc123947e2ac111a3c141dd815",
+  "short": 30.0,
+  "mid": 126.1,
+  "long": 349.4,
+  "elong": 11.66,
+  "squat": 4.21,
+  "antipodal": 0.182
+ },
+ {
+  "uuid": "61a9ebb24be6462687f6f40985ca11c7",
+  "short": 65.5,
+  "mid": 72.5,
+  "long": 242.6,
+  "elong": 3.7,
+  "squat": 1.11,
+  "antipodal": 0.432
+ },
+ {
+  "uuid": "62a7ecc7845e40fa986e65495d59db87",
+  "short": 120.6,
+  "mid": 290.7,
+  "long": 299.6,
+  "elong": 2.48,
+  "squat": 2.41,
+  "antipodal": 0.115
+ },
+ {
+  "uuid": "62ee76119f1c4524824edc80e2e5834e",
+  "short": 90.8,
+  "mid": 156.6,
+  "long": 332.8,
+  "elong": 3.67,
+  "squat": 1.73,
+  "antipodal": 0.61
+ },
+ {
+  "uuid": "63f67ba1fd614f40aff93c5b3d8b77d5",
+  "short": 49.7,
+  "mid": 97.8,
+  "long": 107.5,
+  "elong": 2.16,
+  "squat": 1.97,
+  "antipodal": 0.452
+ },
+ {
+  "uuid": "649ed122d13b415ab673fb4d375c3063",
+  "short": 30.5,
+  "mid": 47.3,
+  "long": 99.2,
+  "elong": 3.26,
+  "squat": 1.55,
+  "antipodal": 0.091
+ },
+ {
+  "uuid": "65e6e24d033a46aaa859497388f006f3",
+  "short": 87.3,
+  "mid": 87.7,
+  "long": 295.2,
+  "elong": 3.38,
+  "squat": 1.0,
+  "antipodal": 0.0
+ },
+ {
+  "uuid": "66fd712372f14a8f8d83d4d1e4ff6dce",
+  "short": 83.9,
+  "mid": 136.0,
+  "long": 148.8,
+  "elong": 1.77,
+  "squat": 1.62,
+  "antipodal": 0.445
+ },
+ {
+  "uuid": "68055038a07e4819bd38bc3ff3ee39be",
+  "short": 59.9,
+  "mid": 118.4,
+  "long": 221.1,
+  "elong": 3.69,
+  "squat": 1.98,
+  "antipodal": 0.167
+ },
+ {
+  "uuid": "689a7a3d712f4085bd2320512172226f",
+  "short": 50.5,
+  "mid": 68.7,
+  "long": 203.3,
+  "elong": 4.02,
+  "squat": 1.36,
+  "antipodal": 0.085
+ },
+ {
+  "uuid": "698bfa9aa58f419c8297b93d3d454554",
+  "short": 36.2,
+  "mid": 64.2,
+  "long": 87.7,
+  "elong": 2.42,
+  "squat": 1.77,
+  "antipodal": 0.004
+ },
+ {
+  "uuid": "6de641441dc24759803225696eef1b17",
+  "short": 102.3,
+  "mid": 273.1,
+  "long": 276.0,
+  "elong": 2.7,
+  "squat": 2.67,
+  "antipodal": 0.103
+ },
+ {
+  "uuid": "701c112d7ce54788b2d95b2f406f6df7",
+  "short": 55.4,
+  "mid": 142.7,
+  "long": 235.9,
+  "elong": 4.25,
+  "squat": 2.57,
+  "antipodal": 0.128
+ },
+ {
+  "uuid": "70d2687b6aab40c291d2d453c3f0afb6",
+  "short": 60.3,
+  "mid": 168.5,
+  "long": 290.1,
+  "elong": 4.81,
+  "squat": 2.79,
+  "antipodal": 0.0
+ },
+ {
+  "uuid": "74dfd9925fde4ae5882eb74c77c3c663",
+  "short": 24.0,
+  "mid": 39.9,
+  "long": 66.0,
+  "elong": 2.75,
+  "squat": 1.66,
+  "antipodal": 0.268
+ },
+ {
+  "uuid": "7684a1c08dad4d4b9d0ff76343a68247",
+  "short": 66.7,
+  "mid": 67.8,
+  "long": 294.9,
+  "elong": 4.42,
+  "squat": 1.02,
+  "antipodal": 0.0
+ },
+ {
+  "uuid": "76862cc301e5430c9de1b7a34850f192",
+  "short": 126.8,
+  "mid": 171.2,
+  "long": 273.3,
+  "elong": 2.15,
+  "squat": 1.35,
+  "antipodal": 0.198
+ },
+ {
+  "uuid": "78d28f9edffe41c9bc9c7050dc2d3fbc",
+  "short": 59.3,
+  "mid": 80.9,
+  "long": 97.7,
+  "elong": 1.65,
+  "squat": 1.36,
+  "antipodal": 0.403
+ },
+ {
+  "uuid": "79ef2c7626b7429eb6c29f48cb111e85",
+  "short": 49.8,
+  "mid": 79.4,
+  "long": 131.3,
+  "elong": 2.64,
+  "squat": 1.59,
+  "antipodal": 0.147
+ },
+ {
+  "uuid": "7a89051127924a2ba793a72d092abe74",
+  "short": 34.0,
+  "mid": 57.5,
+  "long": 122.3,
+  "elong": 3.6,
+  "squat": 1.69,
+  "antipodal": 0.245
+ },
+ {
+  "uuid": "7b1f172b5fd04f6c96a460140590242d",
+  "short": 98.9,
+  "mid": 102.3,
+  "long": 138.8,
+  "elong": 1.4,
+  "squat": 1.03,
+  "antipodal": 0.462
+ },
+ {
+  "uuid": "7ea6582daadd4d6f9c685b5d1de07fa7",
+  "short": 73.3,
+  "mid": 76.9,
+  "long": 172.6,
+  "elong": 2.36,
+  "squat": 1.05,
+  "antipodal": 0.013
+ },
+ {
+  "uuid": "7ff73be80293427ea2de0bdd02c4f4c4",
+  "short": 33.2,
+  "mid": 36.7,
+  "long": 67.1,
+  "elong": 2.02,
+  "squat": 1.11,
+  "antipodal": 0.511
+ },
+ {
+  "uuid": "810569e6151f4aa0ad42c4d6330fcf85",
+  "short": 106.2,
+  "mid": 166.2,
+  "long": 184.8,
+  "elong": 1.74,
+  "squat": 1.56,
+  "antipodal": 0.406
+ },
+ {
+  "uuid": "8231a91d0a1f41c88b045fe39d2bb7bc",
+  "short": 26.1,
+  "mid": 73.9,
+  "long": 80.3,
+  "elong": 3.08,
+  "squat": 2.83,
+  "antipodal": 0.118
+ },
+ {
+  "uuid": "84908780ca9b437ca979c050346b63cf",
+  "short": 34.2,
+  "mid": 86.6,
+  "long": 95.8,
+  "elong": 2.8,
+  "squat": 2.53,
+  "antipodal": 0.058
+ },
+ {
+  "uuid": "852e8d7eb9c4401f844fd889f85a45a8",
+  "short": 55.1,
+  "mid": 57.8,
+  "long": 184.0,
+  "elong": 3.34,
+  "squat": 1.05,
+  "antipodal": 0.249
+ },
+ {
+  "uuid": "862d64f546e2449e9fddfcc4c0aa02b6",
+  "short": 111.1,
+  "mid": 171.5,
+  "long": 273.1,
+  "elong": 2.46,
+  "squat": 1.54,
+  "antipodal": 0.199
+ },
+ {
+  "uuid": "8b70001c63874a1892f19efbf541002c",
+  "short": 106.6,
+  "mid": 215.4,
+  "long": 215.4,
+  "elong": 2.02,
+  "squat": 2.02,
+  "antipodal": 0.452
+ },
+ {
+  "uuid": "8f795db970ea4cfcb84278c1093659e2",
+  "short": 75.5,
+  "mid": 121.9,
+  "long": 283.5,
+  "elong": 3.76,
+  "squat": 1.61,
+  "antipodal": 0.039
+ },
+ {
+  "uuid": "904231517fd644ab8cae9b78544ea029",
+  "short": 29.7,
+  "mid": 68.8,
+  "long": 69.0,
+  "elong": 2.32,
+  "squat": 2.31,
+  "antipodal": 0.049
+ },
+ {
+  "uuid": "905644cc02634f0b80d6090f84543bdc",
+  "short": 60.8,
+  "mid": 69.6,
+  "long": 143.9,
+  "elong": 2.37,
+  "squat": 1.14,
+  "antipodal": 0.322
+ },
+ {
+  "uuid": "97d1e546731940cab115b271bcc7f690",
+  "short": 116.8,
+  "mid": 239.0,
+  "long": 296.6,
+  "elong": 2.54,
+  "squat": 2.05,
+  "antipodal": 0.224
+ },
+ {
+  "uuid": "9e0a989a5aee4ecda68e08b62552a799",
+  "short": 52.3,
+  "mid": 125.2,
+  "long": 131.2,
+  "elong": 2.51,
+  "squat": 2.39,
+  "antipodal": 0.349
+ },
+ {
+  "uuid": "a062944af8aa47998ce35ac43ea237b6",
+  "short": 54.0,
+  "mid": 60.7,
+  "long": 114.2,
+  "elong": 2.11,
+  "squat": 1.12,
+  "antipodal": 0.159
+ },
+ {
+  "uuid": "a0e7fa322fac48f9b333234b8ccf433b",
+  "short": 70.7,
+  "mid": 117.0,
+  "long": 169.4,
+  "elong": 2.4,
+  "squat": 1.66,
+  "antipodal": 0.142
+ },
+ {
+  "uuid": "a194cd3bbe0e4e89820ac158d103c02c",
+  "short": 77.6,
+  "mid": 106.4,
+  "long": 188.0,
+  "elong": 2.42,
+  "squat": 1.37,
+  "antipodal": 0.129
+ },
+ {
+  "uuid": "a2197dc431a84e16ad5bfa5c0bd0bac9",
+  "short": 80.1,
+  "mid": 134.0,
+  "long": 349.6,
+  "elong": 4.36,
+  "squat": 1.67,
+  "antipodal": 0.335
+ },
+ {
+  "uuid": "a42fa0e9decb4756bc03095433919393",
+  "short": 30.9,
+  "mid": 40.1,
+  "long": 191.2,
+  "elong": 6.18,
+  "squat": 1.3,
+  "antipodal": 0.35
+ },
+ {
+  "uuid": "a72f51ce1b93435b8bd93669546a888b",
+  "short": 121.5,
+  "mid": 177.6,
+  "long": 190.6,
+  "elong": 1.57,
+  "squat": 1.46,
+  "antipodal": 0.337
+ },
+ {
+  "uuid": "a7852c063b484df6963e1b5f649e7fe5",
+  "short": 122.3,
+  "mid": 216.4,
+  "long": 341.3,
+  "elong": 2.79,
+  "squat": 1.77,
+  "antipodal": 0.151
+ },
+ {
+  "uuid": "a7dc44d6760549e0b26677b2a587457a",
+  "short": 55.2,
+  "mid": 94.4,
+  "long": 137.1,
+  "elong": 2.48,
+  "squat": 1.71,
+  "antipodal": 0.096
+ },
+ {
+  "uuid": "a83153e924c646fa9c0f9e041139b136",
+  "short": 56.8,
+  "mid": 72.2,
+  "long": 86.1,
+  "elong": 1.52,
+  "squat": 1.27,
+  "antipodal": 0.033
+ },
+ {
+  "uuid": "a9d0452fb03047238283b895777e2e97",
+  "short": 121.8,
+  "mid": 141.7,
+  "long": 316.5,
+  "elong": 2.6,
+  "squat": 1.16,
+  "antipodal": 0.187
+ },
+ {
+  "uuid": "acfd453ccb254fec87cae82046251009",
+  "short": 116.7,
+  "mid": 116.8,
+  "long": 282.9,
+  "elong": 2.42,
+  "squat": 1.0,
+  "antipodal": 0.518
+ },
+ {
+  "uuid": "ae3c1b7df3be411b81bd9e2945eac9a6",
+  "short": 36.1,
+  "mid": 185.7,
+  "long": 285.0,
+  "elong": 7.9,
+  "squat": 5.15,
+  "antipodal": 0.172
+ },
+ {
+  "uuid": "b0ff1559539d4a4f88e325b00eb581f5",
+  "short": 45.5,
+  "mid": 202.3,
+  "long": 228.2,
+  "elong": 5.01,
+  "squat": 4.45,
+  "antipodal": 0.0
+ },
+ {
+  "uuid": "b3f962419f5e414d9289f578307a7974",
+  "short": 31.0,
+  "mid": 65.0,
+  "long": 105.3,
+  "elong": 3.39,
+  "squat": 2.09,
+  "antipodal": 0.005
+ },
+ {
+  "uuid": "b46c145c453147d9bb298e3a36c06fde",
+  "short": 73.2,
+  "mid": 232.5,
+  "long": 292.1,
+  "elong": 3.99,
+  "squat": 3.18,
+  "antipodal": 0.355
+ },
+ {
+  "uuid": "b4b3e046469749ce813c95f144276640",
+  "short": 49.1,
+  "mid": 54.6,
+  "long": 127.9,
+  "elong": 2.61,
+  "squat": 1.11,
+  "antipodal": 0.235
+ },
+ {
+  "uuid": "b5709832fcde4254826090faa5fd8ad2",
+  "short": 71.9,
+  "mid": 204.6,
+  "long": 348.4,
+  "elong": 4.84,
+  "squat": 2.84,
+  "antipodal": 0.02
+ },
+ {
+  "uuid": "b8c8a28219464a7fa947effca8580f13",
+  "short": 126.7,
+  "mid": 158.4,
+  "long": 173.2,
+  "elong": 1.37,
+  "squat": 1.25,
+  "antipodal": 0.242
+ },
+ {
+  "uuid": "bb0eea1979ca4ee1b9002915dafead38",
+  "short": 53.0,
+  "mid": 72.3,
+  "long": 150.6,
+  "elong": 2.84,
+  "squat": 1.36,
+  "antipodal": 0.393
+ },
+ {
+  "uuid": "bb1023a8c09141d29996924e425fe6c5",
+  "short": 56.4,
+  "mid": 69.8,
+  "long": 88.9,
+  "elong": 1.58,
+  "squat": 1.24,
+  "antipodal": 0.138
+ },
+ {
+  "uuid": "c0c0f2d8b980400cae6045139244c3d7",
+  "short": 124.5,
+  "mid": 127.9,
+  "long": 168.4,
+  "elong": 1.35,
+  "squat": 1.03,
+  "antipodal": 0.16
+ },
+ {
+  "uuid": "c0d363d197ba450fbef08224d3edd3ee",
+  "short": 72.9,
+  "mid": 75.6,
+  "long": 79.9,
+  "elong": 1.1,
+  "squat": 1.04,
+  "antipodal": 0.133
+ },
+ {
+  "uuid": "c1e6ac573c37485f9e7acaaae418df30",
+  "short": 21.0,
+  "mid": 198.7,
+  "long": 327.8,
+  "elong": 15.63,
+  "squat": 9.47,
+  "antipodal": 0.0
+ },
+ {
+  "uuid": "cea98a167eef4efc825295f6a9e10ddc",
+  "short": 125.6,
+  "mid": 308.8,
+  "long": 332.0,
+  "elong": 2.64,
+  "squat": 2.46,
+  "antipodal": 0.091
+ },
+ {
+  "uuid": "d020ffdc8ea0408ca11986a8e0ccb8e1",
+  "short": 66.0,
+  "mid": 99.4,
+  "long": 146.0,
+  "elong": 2.21,
+  "squat": 1.51,
+  "antipodal": 0.023
+ },
+ {
+  "uuid": "d2b5ec0a040b4a11a9dca335464f0815",
+  "short": 20.5,
+  "mid": 66.6,
+  "long": 131.3,
+  "elong": 6.4,
+  "squat": 3.25,
+  "antipodal": 0.033
+ },
+ {
+  "uuid": "d3f5e832769f45e39c8ffef1f17e73b8",
+  "short": 43.9,
+  "mid": 45.6,
+  "long": 70.4,
+  "elong": 1.6,
+  "squat": 1.04,
+  "antipodal": 0.168
+ },
+ {
+  "uuid": "d4f2c598e6be47a498af912f6baa6260",
+  "short": 38.3,
+  "mid": 52.7,
+  "long": 141.1,
+  "elong": 3.68,
+  "squat": 1.37,
+  "antipodal": 0.153
+ },
+ {
+  "uuid": "d814b79fbcf2461faf106861bee7e112",
+  "short": 110.5,
+  "mid": 133.6,
+  "long": 323.0,
+  "elong": 2.92,
+  "squat": 1.21,
+  "antipodal": 0.454
+ },
+ {
+  "uuid": "d8caad07019141a0963aa66abb0efbf7",
+  "short": 65.5,
+  "mid": 140.4,
+  "long": 201.5,
+  "elong": 3.08,
+  "squat": 2.14,
+  "antipodal": 0.115
+ },
+ {
+  "uuid": "d951719747d042d7860a7cf7901da37f",
+  "short": 45.6,
+  "mid": 169.9,
+  "long": 239.4,
+  "elong": 5.25,
+  "squat": 3.73,
+  "antipodal": 0.338
+ },
+ {
+  "uuid": "d9efe71a39d84566ba8dda862abfa5b6",
+  "short": 84.5,
+  "mid": 150.1,
+  "long": 171.3,
+  "elong": 2.03,
+  "squat": 1.77,
+  "antipodal": 0.346
+ },
+ {
+  "uuid": "da7084026e5246148ed054037a6a3b71",
+  "short": 30.0,
+  "mid": 62.2,
+  "long": 78.7,
+  "elong": 2.62,
+  "squat": 2.07,
+  "antipodal": 0.186
+ },
+ {
+  "uuid": "daf6859d23e34d40886412998ac0695a",
+  "short": 79.2,
+  "mid": 258.4,
+  "long": 297.3,
+  "elong": 3.76,
+  "squat": 3.26,
+  "antipodal": 0.135
+ },
+ {
+  "uuid": "e15521857d9b4f8bb9dff28d616e85a4",
+  "short": 41.6,
+  "mid": 213.3,
+  "long": 345.7,
+  "elong": 8.31,
+  "squat": 5.13,
+  "antipodal": 0.147
+ },
+ {
+  "uuid": "e1ca50858dd94a10a94b7ac2ca07c69e",
+  "short": 44.4,
+  "mid": 88.2,
+  "long": 143.0,
+  "elong": 3.22,
+  "squat": 1.99,
+  "antipodal": 0.003
+ },
+ {
+  "uuid": "e491afcbbfbc4c5db639218730297d01",
+  "short": 122.7,
+  "mid": 222.0,
+  "long": 295.2,
+  "elong": 2.41,
+  "squat": 1.81,
+  "antipodal": 0.035
+ },
+ {
+  "uuid": "e77268b46fa549d1b611d2429b2201c1",
+  "short": 71.9,
+  "mid": 212.6,
+  "long": 314.2,
+  "elong": 4.37,
+  "squat": 2.96,
+  "antipodal": 0.367
+ },
+ {
+  "uuid": "e8ae80bec4884254823832d2ab2676dd",
+  "short": 65.4,
+  "mid": 95.0,
+  "long": 186.1,
+  "elong": 2.84,
+  "squat": 1.45,
+  "antipodal": 0.037
+ },
+ {
+  "uuid": "e8b38df736994cf8b4f7a3a9d2980f6b",
+  "short": 100.0,
+  "mid": 112.3,
+  "long": 147.8,
+  "elong": 1.48,
+  "squat": 1.12,
+  "antipodal": 0.511
+ },
+ {
+  "uuid": "e9b2953e3f70476bb3a5d85f0e0dfc9b",
+  "short": 120.8,
+  "mid": 139.2,
+  "long": 214.1,
+  "elong": 1.77,
+  "squat": 1.15,
+  "antipodal": 0.157
+ },
+ {
+  "uuid": "ec02a2b9aa524999a6dd1ac73ebd9d70",
+  "short": 111.3,
+  "mid": 118.2,
+  "long": 125.6,
+  "elong": 1.13,
+  "squat": 1.06,
+  "antipodal": 0.411
+ },
+ {
+  "uuid": "ed58c7cf06f54647ae9080d9f092b5a4",
+  "short": 104.1,
+  "mid": 197.9,
+  "long": 339.6,
+  "elong": 3.26,
+  "squat": 1.9,
+  "antipodal": 0.095
+ },
+ {
+  "uuid": "edfb316a2c3b4a53bc043dde77ab2e54",
+  "short": 36.0,
+  "mid": 242.3,
+  "long": 242.3,
+  "elong": 6.74,
+  "squat": 6.74,
+  "antipodal": 0.156
+ },
+ {
+  "uuid": "ef4fef24c990461986a96f5462c5248d",
+  "short": 61.2,
+  "mid": 92.0,
+  "long": 142.3,
+  "elong": 2.32,
+  "squat": 1.5,
+  "antipodal": 0.31
+ },
+ {
+  "uuid": "f19d6a3e6c6a4aa29c1d8ab2766a292d",
+  "short": 62.2,
+  "mid": 62.2,
+  "long": 239.7,
+  "elong": 3.85,
+  "squat": 1.0,
+  "antipodal": 0.0
+ },
+ {
+  "uuid": "f23d5373a40e41728772fd86bf0ebed0",
+  "short": 114.2,
+  "mid": 204.1,
+  "long": 242.1,
+  "elong": 2.12,
+  "squat": 1.79,
+  "antipodal": 0.138
+ },
+ {
+  "uuid": "f9dfc01a5b894c2d946473c4c06000d6",
+  "short": 54.9,
+  "mid": 97.1,
+  "long": 323.6,
+  "elong": 5.89,
+  "squat": 1.77,
+  "antipodal": 0.253
+ }
+]

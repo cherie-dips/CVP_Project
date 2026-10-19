@@ -1,0 +1,82 @@
+{
+ "c0d363d1": {
+  "uuid": "c0d363d197ba450fbef08224d3edd3ee",
+  "name": "Stylized Barrel",
+  "shape": "round",
+  "short_mm": 72.9,
+  "long_mm": 79.9,
+  "ratio": 1.1
+ },
+ "ec02a2b9": {
+  "uuid": "ec02a2b9aa524999a6dd1ac73ebd9d70",
+  "name": "Stylized Metal Buket",
+  "shape": "round",
+  "short_mm": 111.3,
+  "long_mm": 125.6,
+  "ratio": 1.13
+ },
+ "bb1023a8": {
+  "uuid": "bb1023a8c09141d29996924e425fe6c5",
+  "name": "lowpoly teapot",
+  "shape": "round",
+  "short_mm": 56.4,
+  "long_mm": 88.9,
+  "ratio": 1.58
+ },
+ "429536ff": {
+  "uuid": "429536ff8dd84e538168c17ce6e82e28",
+  "name": "Pills",
+  "shape": "round",
+  "short_mm": 80.8,
+  "long_mm": 131.5,
+  "ratio": 1.63
+ },
+ "66fd7123": {
+  "uuid": "66fd712372f14a8f8d83d4d1e4ff6dce",
+  "name": "Ice Bucket",
+  "shape": "round",
+  "short_mm": 83.9,
+  "long_mm": 148.8,
+  "ratio": 1.77
+ },
+ "17f40d0e": {
+  "uuid": "17f40d0ee47f442d9b9091d7a609e812",
+  "name": "Log",
+  "shape": "elongated",
+  "short_mm": 40.6,
+  "long_mm": 116.8,
+  "ratio": 2.88
+ },
+ "2527cdd4": {
+  "uuid": "2527cdd4e465404a9e049171f506fc14",
+  "name": "Delicious Polish vodka bottle",
+  "shape": "elongated",
+  "short_mm": 48.7,
+  "long_mm": 171.5,
+  "ratio": 3.52
+ },
+ "2ec1ab45": {
+  "uuid": "2ec1ab458bcd4ea59236bb58bc3707dd",
+  "name": "Amelia Watson's Pocket Watch",
+  "shape": "elongated",
+  "short_mm": 43.7,
+  "long_mm": 255.3,
+  "ratio": 5.84
+ },
+ "08f942bd": {
+  "uuid": "08f942bd6c13467091520f48223aea34",
+  "name": "Skateboard for Tabletop Simulator",
+  "shape": "elongated",
+  "short_mm": 25.1,
+  "long_mm": 138.5,
+  "ratio": 5.52
+ },
+ "649ed122": {
+  "uuid": "649ed122d13b415ab673fb4d375c3063",
+  "name": "Yangin Sondurme Tupu1",
+  "shape": "elongated",
+  "short_mm": 30.5,
+  "long_mm": 99.2,
+  "ratio": 3.26
+ }
+}

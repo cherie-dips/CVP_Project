@@ -1,0 +1,72 @@
+{
+ "c0d363d1": {
+  "gripper": "2-finger",
+  "reason": "The barrel is 73 mm across its shortest axis, which is the diameter of the barrel.",
+  "swapped_order": "2-finger",
+  "n_images": 2,
+  "raw": "2-finger\n\nThe barrel is 73 mm across its shortest axis, which is the diameter of the barrel. The 2-finger gripper is designed to grasp objects with a diameter of 73 mm. The 4-finger gripper is designed for objects with a longer diameter. The barrel is 80 mm across its longest axis, which is longer t"
+ },
+ "ec02a2b9": {
+  "gripper": "2-finger",
+  "reason": "The bucket is relatively narrow and cylindrical, with a handle that is short and wide, making it suitable for a 2-finger gripper.",
+  "swapped_order": "2-finger",
+  "n_images": 2,
+  "raw": "2-finger  \nThe bucket is relatively narrow and cylindrical, with a handle that is short and wide, making it suitable for a 2-finger gripper."
+ },
+ "bb1023a8": {
+  "gripper": "2-finger",
+  "reason": "The teapot is small and has a rounded, conical body that is best gripped with two fingers from opposite sides.",
+  "swapped_order": "2-finger",
+  "n_images": 2,
+  "raw": "2-finger\n\nThe teapot is small and has a rounded, conical body that is best gripped with two fingers from opposite sides. The 4-finger gripper would be too large and would not provide a secure or comfortable grasp."
+ },
+ "429536ff": {
+  "gripper": "2-finger",
+  "reason": "The object is a small, cylindrical pill bottle with a rounded cap and a label that is slightly wider than the body.",
+  "swapped_order": "2-finger",
+  "n_images": 2,
+  "raw": "2-finger\n\nThe object is a small, cylindrical pill bottle with a rounded cap and a label that is slightly wider than the body. The label is on the side of the bottle and is slightly curved. The cap is slightly rounded and has a slight indentation on the top. The bottle is slightly curved and has a sl"
+ },
+ "66fd7123": {
+  "gripper": "2-finger",
+  "reason": "The bucket is relatively wide and has a rounded rim, making it suitable for a 2-finger gripper that can grasp the sides from opposite sides.",
+  "swapped_order": "2-finger",
+  "n_images": 2,
+  "raw": "2-finger\n\nThe bucket is relatively wide and has a rounded rim, making it suitable for a 2-finger gripper that can grasp the sides from opposite sides."
+ },
+ "17f40d0e": {
+  "gripper": "2-finger",
+  "reason": "The log is relatively short and cylindrical, with a diameter of 41 mm and a length of 117 mm.",
+  "swapped_order": "2-finger",
+  "n_images": 2,
+  "raw": "2-finger\n\nThe log is relatively short and cylindrical, with a diameter of 41 mm and a length of 117 mm. The 2-finger gripper is designed to grasp objects with a diameter of 20 mm or less, while the 4-finger gripper is designed for objects with a diameter of 40 mm or more. The log is 41 mm in diamete"
+ },
+ "2527cdd4": {
+  "gripper": "2-finger",
+  "reason": "The bottle is narrow and tall, with a slender body and a cap that is slightly wider than the neck, making it suitable for a 2-finger gripper.",
+  "swapped_order": "2-finger",
+  "n_images": 2,
+  "raw": "2-finger\n\nThe bottle is narrow and tall, with a slender body and a cap that is slightly wider than the neck, making it suitable for a 2-finger gripper."
+ },
+ "2ec1ab45": {
+  "gripper": "2-finger",
+  "reason": "The pocket watch is small and round, with a diameter of 44 mm, making it suitable for a 2-finger gripper.",
+  "swapped_order": "2-finger",
+  "n_images": 2,
+  "raw": "2-finger\n\nThe pocket watch is small and round, with a diameter of 44 mm, making it suitable for a 2-finger gripper. The 4-finger gripper would be too large and might not provide a secure hold."
+ },
+ "08f942bd": {
+  "gripper": "2-finger",
+  "reason": "The gripper's fingers are closer together, allowing for a more compact fit on the skateboard's edge.",
+  "swapped_order": "2-finger",
+  "n_images": 2,
+  "raw": "2-finger  \nThe gripper's fingers are closer together, allowing for a more compact fit on the skateboard's edge."
+ },
+ "649ed122": {
+  "gripper": "2-finger",
+  "reason": "The object is a fire extinguisher, which is a long, cylindrical object.",
+  "swapped_order": "2-finger",
+  "n_images": 2,
+  "raw": "2-finger\n\nThe object is a fire extinguisher, which is a long, cylindrical object. The 2-finger gripper is designed to grasp the object from the opposite sides, while the 4-finger gripper is designed to grasp from all four sides. The 2-finger gripper is better suited for this object as it is longer a"
+ }
+}

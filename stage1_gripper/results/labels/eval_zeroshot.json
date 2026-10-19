@@ -1,0 +1,497 @@
+{
+ "adapter": null,
+ "n": 68,
+ "accuracy": 0.941,
+ "by_class": {
+  "2-finger": {
+   "n": 65,
+   "recall": 0.985
+  },
+  "4-finger": {
+   "n": 3,
+   "recall": 0.0
+  }
+ },
+ "predicted": {
+  "2-finger": 67,
+  "4-finger": 1
+ },
+ "preds": [
+  {
+   "uuid": "a72f51ce1b93435b8bd93669546a888b",
+   "object": "Andino 0111 Materials01",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "b3f962419f5e414d9289f578307a7974",
+   "object": "Piyush car model-submission_week5",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "ed58c7cf06f54647ae9080d9f092b5a4",
+   "object": "Mediaval Glove Stylised",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "e1ca50858dd94a10a94b7ac2ca07c69e",
+   "object": "Bread 06",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "a194cd3bbe0e4e89820ac158d103c02c",
+   "object": "The belt from Illerup \u00c5dal \u2013 3D reconstruction 1",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "206c60c7a47143b9959e3cff1e6ad404",
+   "object": "\u0428\u0442\u0435\u043d\u0434\u0435\u0440 690\u04451300\u043c\u043c",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "336574c433fa40999108ce40a19e7177",
+   "object": "My first climbing hold",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "7ff73be80293427ea2de0bdd02c4f4c4",
+   "object": "Motorcycle LowPoly",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "b8c8a28219464a7fa947effca8580f13",
+   "object": "Retro Cassete",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "31ecdff2bc3747d19a51d49507bba740",
+   "object": "Whitehill Shield",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "70d2687b6aab40c291d2d453c3f0afb6",
+   "object": "Hammer downloadable",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "38232c0c87d641ac8632d846de3821a7",
+   "object": "Roman Bowl",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "6de641441dc24759803225696eef1b17",
+   "object": "YACOBI-IGNACIO-GROMIT",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "36d38e329b424d929c5efad81cf387f9",
+   "object": "Acabamento p/ Monocomando de Chuveiro - B07006G",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "1524f04f2d8147d7a63d36bfee1c5458",
+   "object": "CC0 - Plastic Wash Basin 2",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "c0c0f2d8b980400cae6045139244c3d7",
+   "object": "Cute Bunny",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "c1e6ac573c37485f9e7acaaae418df30",
+   "object": "Cutting board",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "8231a91d0a1f41c88b045fe39d2bb7bc",
+   "object": "Ren",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "36342df2dae44dd4894ad4658720c2a4",
+   "object": "Burger",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "79ef2c7626b7429eb6c29f48cb111e85",
+   "object": "Bear Idle",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "2db87772b2b446a3af2ed0cc427b93aa",
+   "object": "Man Hat3",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "e15521857d9b4f8bb9dff28d616e85a4",
+   "object": "Weapon Design",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "edfb316a2c3b4a53bc043dde77ab2e54",
+   "object": "Bob Lazar UFO - full interior",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "9e0a989a5aee4ecda68e08b62552a799",
+   "object": "AU-26491 Bezel",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "bb0eea1979ca4ee1b9002915dafead38",
+   "object": "Carro",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "d2b5ec0a040b4a11a9dca335464f0815",
+   "object": "PB61 Hammer Hi",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "17f40d0ee47f442d9b9091d7a609e812",
+   "object": "Log",
+   "truth": "4-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "d4f2c598e6be47a498af912f6baa6260",
+   "object": "Chain Hook",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "a2197dc431a84e16ad5bfa5c0bd0bac9",
+   "object": "Frog",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "3461b2c6f57f4210949c4bc3cc750210",
+   "object": "Alarm Charger",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "698bfa9aa58f419c8297b93d3d454554",
+   "object": "Super Nintendo Controller",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "97d1e546731940cab115b271bcc7f690",
+   "object": "Week_1_MouseDongle",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "da7084026e5246148ed054037a6a3b71",
+   "object": "Arnt Shoes - Dunks",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "319727f5f023442d8a8374b03a8e2475",
+   "object": "02.0",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "02d482391a374f34b3dbc6b2bf19762e",
+   "object": "Kylo Ren",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "d814b79fbcf2461faf106861bee7e112",
+   "object": "GuitarV2",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "ae3c1b7df3be411b81bd9e2945eac9a6",
+   "object": "USP",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "a83153e924c646fa9c0f9e041139b136",
+   "object": "Bear",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "42724d46046e4bba8eec9880890dc45a",
+   "object": "Twig Screech",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "4ec62ed9b3de428db25b6c25417b7897",
+   "object": "Stalker",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "08f942bd6c13467091520f48223aea34",
+   "object": "Skateboard for Tabletop Simulator",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "66fd712372f14a8f8d83d4d1e4ff6dce",
+   "object": "Ice Bucket",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "58cd445c1e0044dd8af2009d51b7be18",
+   "object": "Medieval shield",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "a42fa0e9decb4756bc03095433919393",
+   "object": "subway train exterior",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "e8b38df736994cf8b4f7a3a9d2980f6b",
+   "object": "Dumpster",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "e9b2953e3f70476bb3a5d85f0e0dfc9b",
+   "object": "Sheepskin coat",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "2940346cc97f4ff9ad1d5284827398ca",
+   "object": "Wild West Wagon",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "3360b4a9f11e47f39c17b680a718619d",
+   "object": "3D Scanned hat",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "acfd453ccb254fec87cae82046251009",
+   "object": "Mantra _3868",
+   "truth": "4-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "3dd8ef697a48422f860110674bce010b",
+   "object": "Donut from Poly by Google",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "ef4fef24c990461986a96f5462c5248d",
+   "object": "Cama",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "62ee76119f1c4524824edc80e2e5834e",
+   "object": "Lowrider Bike Game Res Baked/Textured",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "2ce58fb8b361418897e2cb2f4085029a",
+   "object": "Bad Dog",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "852e8d7eb9c4401f844fd889f85a45a8",
+   "object": "Filing Cabnet",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "76862cc301e5430c9de1b7a34850f192",
+   "object": "Misturador Monocomando St. Claire - B02002BW",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "e8ae80bec4884254823832d2ab2676dd",
+   "object": "\u30b7\u30aa\u30d5\u30ad Surf Clam, Mactra veneriformis",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "7ea6582daadd4d6f9c685b5d1de07fa7",
+   "object": "Bolete 2",
+   "truth": "4-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "d951719747d042d7860a7cf7901da37f",
+   "object": "metascan_20211222-1958",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "84908780ca9b437ca979c050346b63cf",
+   "object": "Pembersihan Bahan Baku",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "4688b6a39b6f4c99a88080a004cbdf77",
+   "object": "ES54 - Silvana",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "7a89051127924a2ba793a72d092abe74",
+   "object": "Cigarettes",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "a0e7fa322fac48f9b333234b8ccf433b",
+   "object": "Voodoo doll",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "d020ffdc8ea0408ca11986a8e0ccb8e1",
+   "object": "Object 3",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "132b635ab00748ab905bbc279497d6d9",
+   "object": "table",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "2210c49edd554bb1b95be93af73a1da5",
+   "object": "Bottles pack - Ideal for liquid shader",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "62a7ecc7845e40fa986e65495d59db87",
+   "object": "Mi Amigo Gromit",
+   "truth": "2-finger",
+   "pred": "4-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "689a7a3d712f4085bd2320512172226f",
+   "object": "Skate board",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  },
+  {
+   "uuid": "649ed122d13b415ab673fb4d375c3063",
+   "object": "Yangin Sondurme Tupu1",
+   "truth": "2-finger",
+   "pred": "2-finger",
+   "reason": ""
+  }
+ ]
+}

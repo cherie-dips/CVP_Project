@@ -1,0 +1,11 @@
+object,short_side_mm,grasps,top_score,median_score
+master chef can,102,40,0.841,0.74
+tomato soup can,68,40,0.971,0.941
+mustard bottle,67,40,0.963,0.925
+banana,37,40,0.998,0.995
+bleach cleanser,68,40,0.968,0.926
+mug,81,40,0.893,0.823
+power drill,57,40,0.973,0.928
+scissors,16,40,0.996,0.985
+hammer,33,40,0.999,0.995
+baseball,73,40,0.898,0.82
