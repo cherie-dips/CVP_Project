@@ -3,6 +3,8 @@
 # data/objaverse         : GraspGen's Objaverse meshes, scales, annotations, splits
 # data/ycb               : YCB meshes, downloaded by stage2_grasp.ipynb
 # data/gripper/*.stl     : gripper CAD meshes
+# data/forceSensor       : screen recordings of the gripper camera + SEN0704 grid, and what
+#                          stage3_force/scripts makes from them: crops/, qc/, frames.csv
 # selected_objects       : Isaac Sim USD assets for graspgenx_selected_objects.py
 # The gripper's small config files stay tracked: the notebooks, the scripts and
 # the GraspGenX setup below read them directly.

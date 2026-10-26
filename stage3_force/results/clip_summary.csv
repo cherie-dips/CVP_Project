@@ -1,0 +1,11 @@
+clip,object,frames,seconds,frames_in_contact,peak_N,grasps,markers_found,markers_found_in_contact,frames_with_unread_cells
+2,hexagon box,3366,112.2,0.203,25.4,7,0.635,0.55,0.0
+3,pink cube,761,25.3,0.343,2.39,2,0.94,1.0,0.0
+4,orange cube,1567,52.2,0.208,4.64,4,0.825,0.942,0.0
+5,plush toy,400,13.3,0.507,1.6,2,0.655,0.32,0.0
+6,highlighter,351,11.7,0.0,0.0,0,0.991,,0.0
+7,highlighter,491,16.3,0.578,16.24,1,1.0,1.0,0.0
+8,small red object,2022,67.4,0.176,2.88,1,0.378,1.0,0.0
+9,pink box,769,25.6,0.651,3.8,1,0.919,1.0,0.0
+10,pink box,745,24.8,0.529,4.54,2,1.0,1.0,0.0
+11,jar lid,1948,64.9,0.284,7.11,6,0.557,0.928,0.0
