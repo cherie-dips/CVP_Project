@@ -6,8 +6,8 @@ Everything here is computed from surface point positions only.
 import numpy as np, trimesh
 
 
-def features(mesh):
-    pts = np.asarray(trimesh.sample.sample_surface(mesh, 20000)[0]) * 1000   # mm
+def features(mesh, seed=None):
+    pts = np.asarray(trimesh.sample.sample_surface(mesh, 20000, seed=seed)[0]) * 1000   # mm
     pts = pts - pts.mean(0)
 
     # principal axes: a0 is the longest, a2 the shortest

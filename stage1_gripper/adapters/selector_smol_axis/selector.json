@@ -1,0 +1,17 @@
+{
+ "model": "mlx-community/SmolVLM2-500M-Video-Instruct-mlx",
+ "layout": "axis",
+ "best_epoch": 2,
+ "lora": {
+  "rank": 8,
+  "alpha": 16,
+  "dropout": 0.05
+ },
+ "lr": 0.0001,
+ "epochs": 2,
+ "grad_accum": 8,
+ "class_weights": {
+  "2-finger": 0.5749336870026526,
+  "4-finger": 3.836283185840708
+ }
+}

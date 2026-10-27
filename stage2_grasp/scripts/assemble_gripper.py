@@ -1,10 +1,11 @@
-import trimesh, numpy as np, matplotlib, warnings
+import pathlib, trimesh, numpy as np, matplotlib, warnings
 matplotlib.use("Agg"); import matplotlib.pyplot as plt
 warnings.filterwarnings("ignore")
 
-BODY  = trimesh.load("data/gripper/Body.stl", force="mesh")
-CLAMP = trimesh.load("data/gripper/Correct.stl", force="mesh")
-FING  = trimesh.load("data/gripper/Fixed_Correct_Finger.stl", force="mesh")
+GRIPPER = pathlib.Path(__file__).resolve().parents[2]/"data"/"gripper"
+BODY  = trimesh.load(GRIPPER/"Body.stl", force="mesh")
+CLAMP = trimesh.load(GRIPPER/"Correct.stl", force="mesh")
+FING  = trimesh.load(GRIPPER/"Fixed_Correct_Finger.stl", force="mesh")
 
 # measured
 P_CLAMP   = np.array([40.17, 22.83, 5.2])     # pivot in clamp coords (mid-thickness)

@@ -1,0 +1,7 @@
+policy,objects,top1_valid,filtered_valid,picks_4finger
+old: always 2-finger (what the VLM answered),50,0.500,0.880,0.000
+"old planners, rule picks",50,0.240,0.680,0.320
+"always 2-finger, fixed planner",50,0.500,0.880,0.000
+"always 4-finger, fixed planner",50,0.260,0.580,1.000
+"selector (axis_lora) picks, fixed planners",50,0.400,0.860,0.380
+"rule picks, fixed planners",50,0.400,0.860,0.320
