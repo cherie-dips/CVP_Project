@@ -45,7 +45,76 @@ python stage3_force/scripts/force_model.py
 - **The camera image lags the sensor GUI by about 0.2 s** (6 frames), probably camera
   preview latency. `force_model.py` corrects for it.
 
-## The force model
+## Force from the image of the finger (current approach)
+
+The six markers only describe the contact beam's shape. When a flat object pushes the beam back
+without bending it, the chain moves as a whole and its shape does not change. That movement is
+visible in the image relative to the clamp the finger is mounted on, so the image models below look
+at the whole finger instead of six points.
+
+| script | does |
+|---|---|
+| `finger_crops.py` | a 224 px square around the marked finger in every frame, following the tracked markers: centred just past the middle of the chain towards the base, 2.4 chain lengths wide, turned so the fingertip is always at the top. It shows the contact beam, ribs, back beam, clamp, the other finger and the object (`results/finger_crops.png`). Frames more than 15 frames from a marker detection are not used |
+| `force_vision.py` | frozen **DINOv2** (ViT-B/14 with registers) features per crop, then three heads scored leaving one object out: the training mean, **ridge** on a 256-component PCA of one frame, and a small causal **temporal CNN** over the last second |
+| `force_finetune.py` | an ImageNet **ResNet-18 fine-tuned end to end** on the crops, strong colour augmentation, same folds |
+
+Why these models. DINOv2-style self-supervised features beat end-to-end training when labels are
+scarce (Sparsh, CoRL 2024), and in the closest prior work an end-to-end ResNet-50 + transformer
+generalised poorly to an unseen object (Zuo et al., RA-L 2026, `papers/`). Camera-based force
+estimators for compliant grippers otherwise fine-tune CNNs end to end (VFTS, IROS 2023; Forces for
+Free, Sci. Robotics 2025, which adds memory over time), hence the fine-tuned ResNet-18 and the
+temporal head. On this data the fine-tuned network won.
+
+**A ResNet-18 fine-tuned on the finger images is the best model.** On objects it never saw it cuts
+the error by a third, and it is the first model to beat the training average while the finger is in
+contact. Same 8,510 frames as the marker model (all six markers seen), mean absolute error:
+
+| model, object held out | all frames | in contact | Spearman | contact AUC |
+|---|---|---|---|---|
+| predict the training average | 1.70 N | 2.46 N | | |
+| marker shape, gradient boosting (`force_model.py`) | 1.75 N | | | |
+| frozen DINOv2 + ridge | 1.47 N | 2.53 N | 0.30 | 0.68 |
+| frozen DINOv2 + temporal CNN | 1.58 N | 2.44 N | 0.17 | 0.59 |
+| **ResNet-18, fine-tuned** | **1.14 N** | **2.17 N** | **0.60** | **0.85** |
+
+Per held-out object, all 9,475 usable crops (in contact in brackets, against the training average's):
+
+| object | training average | frozen DINOv2 + ridge | **fine-tuned ResNet-18** | Spearman, fine-tuned |
+|---|---|---|---|---|
+| plush toy | 0.88 N | 4.57 N | **0.16 N** (0.30 vs 0.40) | 0.89 |
+| pink cube | 1.14 N | 0.28 N | **0.24 N** (0.50 vs 0.87) | 0.86 |
+| orange cube | 1.51 N | 1.08 N | **0.56 N** (1.67 vs 2.19) | 0.73 |
+| small red object | 1.25 N | 0.90 N | **0.69 N** (0.65 vs 1.28) | 0.77 |
+| pink box | 1.58 N | 1.15 N | **0.93 N** (1.38 vs 1.86) | 0.84 |
+| jar lid | 1.59 N | 1.35 N | **1.16 N** (2.37 vs 2.08) | 0.75 |
+| hexagon box | 1.67 N | 1.47 N | **1.31 N** (2.26 vs 2.78) | 0.59 |
+| highlighter | 3.59 N | **3.13 N** | 3.21 N (8.44 vs 8.50) | 0.67 |
+
+![fine-tuned](results/force_finetune.png)
+
+- **It follows the force curve on every object** (Spearman 0.59–0.89), including the plush toy,
+  which the frozen features read as a large force because the toy covers the finger.
+- **It reads low above about 3 N**: about 2.5 N for the orange cube's 4.5 N, about 2 N for the pink
+  box's 3.8–4.5 N, about 1.5 N for the jar lid's 6 N. The highlighter's 10–16 N is outside anything
+  it was trained on; every other object stays under 8 N (bar clip 2's spike).
+- **Clip 6**, the highlighter that never touches the sensor, gets 0.5–1.2 N for about 7 s while the
+  highlighter sits against the finger. Either it presses the finger beside the sensor pad, which the
+  sensor cannot see, or the network reacts to the object being there.
+- Training: every 2nd frame, 8 epochs per fold, Huber loss, AdamW with a one-cycle schedule, colour
+  jitter and channel shuffles, small rotations and shifts, random erasing; about 30 s per epoch on
+  the M4 GPU, 35 min for all 8 folds.
+- The frozen DINOv2 + ridge predictions are in `results/force_vision.png`. Subtracting a reference
+  from each clip's first 30 usable frames ("taring") lowered the frozen model's error to 1.27 N but
+  hurt the pink cube, so it is not used.
+
+```bash
+python stage3_force/scripts/finger_crops.py            # ~10 s
+python stage3_force/scripts/force_vision.py features   # ~5 min on the M4 GPU (MPS output checked against CPU)
+python stage3_force/scripts/force_vision.py heads      # ~3 min
+python stage3_force/scripts/force_finetune.py          # ~35 min on the M4 GPU, resumable per fold
+```
+
+## Force from the marker shape (`force_model.py`, first attempt)
 
 **Within a grasp, finger shape tracks force when the object bends the beam. Across
 objects, it does not yet beat predicting the average.**

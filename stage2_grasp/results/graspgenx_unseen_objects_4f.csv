@@ -1,11 +1,11 @@
-object,short_mm,standoff_2f_mm,reach_2f,standoff_4f_mm,reach_4f
-master chef can,102,-7.6,0.75,25.2,0.07
-tomato soup can,68,-25.4,0.62,31.1,0.33
-mustard bottle,67,-5.2,0.57,23.7,0.07
-banana,37,-4.5,0.62,41.8,0.03
-bleach cleanser,68,-21.2,0.68,46.9,0.07
-mug,81,-23.4,0.62,19.0,0.07
-power drill,57,-23.0,0.62,31.5,0.38
-scissors,16,-19.6,0.8,27.2,0.0
-hammer,33,-31.1,0.95,-25.3,0.7
-baseball,73,-4.7,0.55,39.2,0.07
+object,short_mm,stage1_rule,shown_rank,score,valid,top1_valid,valid_top10,why_top1_fails
+master chef can,102.9,4-finger,2,0.723,True,False,0.6,a finger hits the object fully open
+tomato soup can,67.5,4-finger,1,0.889,True,True,0.8,
+mustard bottle,57.6,2-finger,1,0.727,False,False,0.0,a pair closes on surfaces that are not opposite (outside the friction cone)
+banana,37.7,2-finger,5,0.821,True,False,0.1,a pair closes on surfaces that are not opposite (outside the friction cone)
+bleach cleanser,67.7,2-finger,1,0.678,True,True,0.3,
+mug,90.3,2-finger,1,0.852,True,True,0.7,
+power drill,56.8,2-finger,13,0.757,True,False,0.0,a pair closes on surfaces that are not opposite (outside the friction cone)
+scissors,15.3,2-finger,1,0.958,False,False,0.0,a pair closes on surfaces that are not opposite (outside the friction cone)
+hammer,32.7,2-finger,1,0.979,False,False,0.0,a pair closes on surfaces that are not opposite (outside the friction cone)
+baseball,72.3,4-finger,1,0.866,True,True,1.0,

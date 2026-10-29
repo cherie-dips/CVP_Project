@@ -201,6 +201,7 @@ class Checker:
                 out["reason"] = "a clamp touches the object before its finger does"
         out["contacts"] = len(angles)
         out["angles"] = angles
+        out["points"] = points                                          # first-contact point per finger
         if len(angles) < self.n:
             out["reason"] = out["reason"] or f"only {len(angles)} of {self.n} fingers reach the object"
             return out

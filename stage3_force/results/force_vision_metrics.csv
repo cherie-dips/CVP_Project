@@ -1,0 +1,7 @@
+model,frames,mae_N,mae_contact_N,spearman,contact_auc,frames_set
+mean,9475,1.685,2.451,,,usable crops
+ridge,9475,1.453,2.544,0.315,0.687,usable crops
+temporal,9475,1.591,2.408,0.16,0.581,usable crops
+mean,8510,1.697,2.462,,,all 6 markers (as force_model.py)
+ridge,8510,1.468,2.532,0.299,0.675,all 6 markers (as force_model.py)
+temporal,8510,1.577,2.442,0.165,0.585,all 6 markers (as force_model.py)

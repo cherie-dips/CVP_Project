@@ -1,0 +1,65 @@
+held_out,epoch,train_huber,seconds
+hexagon box,1,0.7346,28.5
+hexagon box,2,0.3242,25.9
+hexagon box,3,0.2189,26.1
+hexagon box,4,0.167,25.7
+hexagon box,5,0.1112,25.9
+hexagon box,6,0.103,26.1
+hexagon box,7,0.0978,25.5
+hexagon box,8,0.0786,25.6
+pink cube,1,0.6695,34.2
+pink cube,2,0.3184,32.7
+pink cube,3,0.1914,32.8
+pink cube,4,0.1428,32.5
+pink cube,5,0.1191,34.6
+pink cube,6,0.1006,34.4
+pink cube,7,0.079,31.7
+pink cube,8,0.0653,31.8
+orange cube,1,0.706,32.3
+orange cube,2,0.2993,30.0
+orange cube,3,0.1969,29.7
+orange cube,4,0.1789,29.1
+orange cube,5,0.1333,29.3
+orange cube,6,0.1199,29.4
+orange cube,7,0.0868,29.5
+orange cube,8,0.0727,30.0
+plush toy,1,0.6286,35.8
+plush toy,2,0.2796,35.1
+plush toy,3,0.2007,34.5
+plush toy,4,0.1381,35.3
+plush toy,5,0.1223,34.7
+plush toy,6,0.0979,33.5
+plush toy,7,0.0753,34.0
+plush toy,8,0.0636,33.4
+highlighter,1,0.4783,32.4
+highlighter,2,0.2225,31.2
+highlighter,3,0.117,31.1
+highlighter,4,0.1029,31.0
+highlighter,5,0.0958,31.3
+highlighter,6,0.0628,31.1
+highlighter,7,0.0552,31.0
+highlighter,8,0.0452,31.3
+small red object,1,0.6575,33.1
+small red object,2,0.2754,32.1
+small red object,3,0.1945,32.6
+small red object,4,0.1462,88.2
+small red object,5,0.1147,137.0
+small red object,6,0.1015,33.8
+small red object,7,0.0665,34.1
+small red object,8,0.0693,33.4
+pink box,1,0.6405,33.6
+pink box,2,0.3077,31.1
+pink box,3,0.2074,30.5
+pink box,4,0.1465,30.4
+pink box,5,0.1215,30.5
+pink box,6,0.1067,33.0
+pink box,7,0.0852,32.8
+pink box,8,0.0725,31.6
+jar lid,1,0.5878,32.5
+jar lid,2,0.2576,30.9
+jar lid,3,0.1875,29.9
+jar lid,4,0.1408,30.1
+jar lid,5,0.0928,29.9
+jar lid,6,0.0943,31.0
+jar lid,7,0.0787,33.7
+jar lid,8,0.0648,33.7

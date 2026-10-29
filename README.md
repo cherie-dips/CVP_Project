@@ -10,8 +10,8 @@ stage 2   that configuration  +  object point cloud
           ──► GraspGenX (4 fingers: two composed 2-finger pinches) ──►  6-DOF grasps
           ──► closed with the real gripper (STLs) ──►  the valid ones
 
-stage 3   the finger's markers  +  the SEN0704 tactile sensor
-          ──►  grip force, and whether the finger shape alone can estimate it
+stage 3   camera image of the finger  +  the SEN0704 tactile sensor
+          ──► fine-tuned CNN ──►  grip force from the image alone
 ```
 
 The gripper is ours: four fin-ray fingers in a cross, driven together by a rack.
@@ -22,7 +22,7 @@ travel. That is the only choice stage 1 makes.
 |---|---|
 | [`stage1_gripper/`](stage1_gripper) | the VLM decision, its labels, fine-tuning |
 | [`stage2_grasp/`](stage2_grasp) | GraspGenX, both configurations, and the real-gripper check |
-| [`stage3_force/`](stage3_force) | tactile sensor calibration, marker tracking, force from finger shape |
+| [`stage3_force/`](stage3_force) | tactile sensor calibration, marker tracking, force from the finger image |
 | `data/gripper/` | the gripper itself: STLs, the swept-volume boxes (`params_*.json`), and `description.md`, the description the first selector was shown |
 | `data/objaverse/`, `data/ycb/` | meshes and real-world scale factors (not tracked) |
 | `papers/` | the papers this is built on |
@@ -35,6 +35,8 @@ travel. That is the only choice stage 1 makes.
 | stage 2, 4 fingers | **0% reach**: GraspGenX stops short of every object | **45%** of top-10 grasps valid on the objects stage 1 sends to 4 fingers; 15 of 16 get a valid grasp |
 | stage 2, 2 fingers | 84% reach, by a metric that never touched the real fingers | 76% valid on round objects, 30% on the rest; 44 of 50 objects get a valid grasp |
 | both stages together | worked only because stage 1 never chose 4 fingers | 86% of 50 real-scanned objects get a valid grasp, with 38% sent to 4 fingers |
+| stage 2, physics simulation | | PyBullet, 8 Objaverse objects, top 10 grasps: **88%** held with 4 fingers, 85% with 2; the heavy round bottle 8/10 vs 1/10 |
+| stage 3, force from the camera | from the 6 markers: 1.75 N error on unseen objects, no better than always predicting the average (1.70 N) | **1.14 N** with a ResNet-18 fine-tuned on the finger images; follows the force curve on every object (Spearman 0.60) but reads low above ~3 N |
 
 **Stage 1 was reading the wrong output.** The VLM's generated answer was constant, but its logits
 were not. Four fixes:
